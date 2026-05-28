@@ -1,82 +1,56 @@
-# Ex.No:2(E) ACCESS MODIFIERS
+# Ex.No:1(E) STRINGS AND MATH FUNCTION
 
 ## QUESTION:
-Create a class Employee with method display(). Inside display(), return the current object using this. Create another method that calls display().printName()
-
+Write a Java program to find the absolute value of a number using Math.abs().
 
 ## AIM:
-To create an Employee class where the display() method returns the current object using this, and demonstrate calling display().printName() from another method.
+To write a Java program that finds the absolute value of a given number using the Math.abs() method.
 
 ## ALGORITHM :
-1. Create a class Employee with a variable name.
+1.Start the program and create a Scanner object.
 
-2. Write a method setName() to assign value to name.
+2.Read a number n (can be integer or decimal) from the user.
 
-3. Write a method display() that returns the current object using return this;.
+3.Use the built-in function Math.abs(n) to compute its absolute value.
 
-4. Write a method printName() to print the employee name.
+4.Display the calculated absolute value.
 
-5. Add another method show() that internally calls display().printName().
-
-6. In the main() method, read the employee name from the user.
-
-7.Create an Employee object and set the name.
-
-8. Call both display().printName() and show() to demonstrate method chaining.
-
-
+5.End the program.
 
 
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Access Modifiers using Java
-Developed by: Gedipudi Darshani
+Program to implement a Strings and Math Function using Java
+Developed by: GEDIPUDI DARSHANI 
 Register Number:212223230062
 */
 ```
 
+
 ## SOURCE CODE:
 ```
-import java.util.Scanner;
-
-class Employee {
-    String name;
-
-    void setName(String name) {
-        this.name = name;  
-    }
-
-    Employee display() {
-        return this;  
-    }
-
-    void printName() {
-        System.out.println("Employee Name: " + name);
-    }
-}
-
-class prog {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String inputName = scanner.nextLine();
-
-        Employee emp = new Employee();
-        emp.setName(inputName);
-        emp.display().printName();  
+import java.util.*;
+public class demo
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        double n=sc.nextDouble();
+        System.out.println("Absolute value = "+Math.abs(n));
     }
 }
 ```
 
 
 ## OUTPUT:
+<img width="744" height="288" alt="image" src="https://github.com/user-attachments/assets/5fab9f43-7f0e-491d-bbad-5c3b7979703e" />
 
-<img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/954fafa4-a638-4044-b666-3322017194cd" />
 
 
 ## RESULT:
-Therefore the program successfully returns the current object using this inside the display() method.
+Therefore the program successfully reads a number and calculates its absolute value.
 
 
 
