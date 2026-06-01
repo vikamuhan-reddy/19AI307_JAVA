@@ -23,8 +23,8 @@ To write a Java program that writes character data into a text file using the Fi
  ```
 /*
 Program to implement a InputStreamReader using Java
-Developed by: Gedipudi Darshani
-RegisterNumber: 212223230062
+Developed by: Vikamuhan Reddy
+RegisterNumber:  212223240181
 */
 ```
 
