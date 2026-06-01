@@ -22,15 +22,12 @@ To write a Java program that uses a Fixed Thread Pool to process a set of number
 11. End the program.
 
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Synchronization concept using Java
-Developed by: Gedipudi Darshani
-RegisterNumber:212223230062
+Developed by: Vikamuhan Reddy
+RegisterNumber:  212223240181
 */
 ```
 
