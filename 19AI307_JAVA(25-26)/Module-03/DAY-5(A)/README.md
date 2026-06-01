@@ -9,8 +9,15 @@ To write a Java program that demonstrates the use of inner classes, where the in
 
 
 ## ALGORITHM :
-<img width="1330" height="393" alt="image" src="https://github.com/user-attachments/assets/546dda2e-06c8-43b9-9bae-81ed749610a9" />
 
+1. Create an outer class `outer`.
+2. Inside it, define an inner class `inner` with a method `print(String name)` that prints a greeting message.
+3. In the `main` method:
+   - Create a `Scanner` object and read the user's name.
+   - Create an object of the outer class.
+   - Using the outer class object, create an object of the inner class.
+   - Call the `print()` method of the inner class to display the greeting.
+4. End the program.
 
 
 
