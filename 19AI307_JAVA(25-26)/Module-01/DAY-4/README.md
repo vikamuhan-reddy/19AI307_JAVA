@@ -29,8 +29,8 @@ To write a Java program that reads an array of integers and finds the index of a
  ```
 /*
 Program to implement a Array concept using Java
-Developed by: Gedipudi Darshani
-Register Number:212223230062
+Developed by: Vikamuhan Reddy  
+Register Number:212223240181
 */
 ```
 
